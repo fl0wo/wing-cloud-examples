@@ -3,7 +3,7 @@
 In this example we created a simple website showing some Pokemon data. 
 We used the [PokeAPI](https://pokeapi.co/) to fetch the data but using an API proxy with [Winglang](https://www.winglang.io/).
 
-[![Showcase](./poke-showcase.gif)](./poke-showcase.gif)
+<img src="./poke-showcase.gif" width="40%"/>
 
 ## Infrastructure With Code
 
@@ -12,7 +12,7 @@ The infrastructure is composed by:
 - A [cloud.Api](https://www.winglang.io/docs/standard-library/cloud/api) as proxy for fetching the data from the PokeAPI
 - A [inflight functions](https://www.winglang.io/docs/concepts/inflights) as glue functions for the API
 
-[![IwC](/pokemon-list/infra-poke.png)](/pokemon-list/infra-poke.png)
+<img src="./infra-poke.png" width="40%"/>
 
 The infrastructure is defined in the `main.w` file.
 
@@ -54,3 +54,8 @@ new PokemonApiResource();
 ```
 
 
+## Run the example
+
+```bash
+wing it main.w
+```
