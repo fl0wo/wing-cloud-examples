@@ -1,5 +1,5 @@
 <script>
-    const BASE_URL = `http://127.0.0.1:40183`;
+    const BASE_URL = `http://127.0.0.1:34211`;
 
     import {onMount} from "svelte";
     let pokemons = []
