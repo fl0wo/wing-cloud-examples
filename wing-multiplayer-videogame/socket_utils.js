@@ -27,13 +27,7 @@ function RunWebSocketServer() {
         io.on('connection', (socket) => {
             console.log('A client has connected.');
 
-            socket.on('message', (data) => {
-                // FIXME: call the avvocato
-                console.log('Received message:', data);
-            });
-
             socket.on('playerMove', (data) => {
-                console.log('Received playerMove:', data);
                 socket.broadcast.emit('playerPositionUpdate', data);
             });
 
