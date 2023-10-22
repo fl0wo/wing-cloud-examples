@@ -47,7 +47,7 @@ const ModelHelper = (function() {
             allPlayers[playerId] = {
                 id: playerId,
                 position: new Vector2(0, 0),
-                speed: 1,
+                speed: 2,
                 color: 'green',
                 radius: 10,
                 name: playerId,
