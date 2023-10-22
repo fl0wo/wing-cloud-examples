@@ -2,6 +2,8 @@ bring cloud;
 bring util;
 bring ex;
 
+let website = new cloud.Website(path: "./front-end");
+
 class Utils {
     extern "./socket_utils.js" pub static inflight RunWebSocketServer();
     extern "./socket_utils.js" pub static inflight CloseWebSocketServer();
