@@ -1,10 +1,14 @@
 # Wingcloud Paintball
 
+A very simple websoket broadcasting server for a multiplayer paintball game.
+
+![ScreencastPaintball.gif](images%2FScreencastPaintball.gif)
+
 ## Description
 
 This is a multiplayer paintball game made with Wingcloud and VanillaJs.
 
-![img.png](infra.png)
+![img.png](images/infra.png)
 
 ## Infrastructure With Code
 
